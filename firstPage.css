@@ -1,0 +1,199 @@
+body {
+    background-color: white;
+    margin: 0%;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.72)), url(img.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white
+}
+
+
+.content {
+    position: absolute;
+    z-index: 1;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    transition: all 1000ms
+}
+
+
+.text {
+    font-size: 200%;
+    line-height: 1,7;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+
+.fa-dumbbell {
+    text-align: center;
+    font-size: 400%;
+    margin: 20%;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+}
+
+.main-nav li a:link{
+    border-bottom: 2px solid transparent
+}
+
+.main-nav li:hover {
+    border-bottom: 2px solid orange;
+}
+.main-nav li:active {
+    border-bottom: 2px solid orange;
+}
+
+
+h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #333333;
+
+}
+
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+p, .grid {
+    color: #333333;
+}
+
+p {
+    font-size: 130%;
+    line-height: 150%;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.grid > div {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background: rgba(31, 139, 31, 0.87);
+}
+
+.fa-utensils{
+    font-size: 500%;
+    padding-left: 43%;
+    padding-right: 43%;
+
+}
+
+.fa-calculator{
+    font-size: 500%;
+    padding-left: 43%;
+    padding-right: 43%;
+}
+
+section.calc {
+    background: whitesmoke;
+    padding: 3%
+}
+
+section#works {
+    padding: 3%;
+    text-align: left
+}
+
+.howitworks {
+    text-align: left;
+}
+
+h5 {
+    padding: 3%;
+}
+
+.howitworks div {
+    color: palevioletred;
+    border: 2px solid palevioletred;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 20px;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.one {
+    margin-top: 5%;
+}
+
+.workout {
+    display: grid;
+    grid-template-columns: 60% 30%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin: 5% 30% 5% 30%
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    transform: scale(1.25);
+    transition-duration: 1s;
+}
+
+.card-img-nutrition {
+    width: 100%;
+    height: 200px;
+    transform: scale(1.25);
+}
+
+.card:hover {
+    -webkit-box-shadow: -1px 9px 40px -12px;
+    -moz-box-shadow: -1px 9px 40px -12px;
+    transform: scale(1.03);
+    opacity: 1;
+}
+
